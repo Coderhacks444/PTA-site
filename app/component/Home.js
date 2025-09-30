@@ -47,30 +47,30 @@ export default function Home() {
 
       <div className="flex flex-col md:flex-row items-center justify-center gap-8 px-6 py-12 fade-in-up">
         {/* Left: Text Content */}
-        <div className="flex-1 max-w-xl text-left">
+        <div className="flex-1 max-w-xl text-left text-gray-800">
         <h2 className=" md:text-1xl font-bold text-center text-orange-500 animate-fade">
           {rotatingText}
         </h2>
-          <p className="mb-4 text-lg">
+          <p className="mb-4 text-lg text-gray-800">
                     <span className="text-green-700 text-2xl">Pakistani Trading Agencies</span> is a reliable supplier of high-quality laboratory kits, instruments, and ready-to-use reagents across Pakistan. We serve diagnostic labs, hospitals, educational institutions, and research centers with trusted and affordable lab solutions.
           </p>
 
-          <h2 className="text-xl font-semibold mt-6 mb-2">🔬 Lab Instruments & Machines</h2>
-          <ul className="list-disc list-inside mb-4 text-base">
+          <h2 className="text-xl font-semibold mt-6 mb-2 text-gray-800">🔬 Lab Instruments & Machines</h2>
+          <ul className="list-disc list-inside mb-4 text-base text-gray-800">
             <li><b>TECOM 6030 & Hematology Analyzer</b> – A reliable Chinese-made automatic hematology analyzer known for precision and ease of use.</li>
             <li><b>General Hematology Equipment</b> – Including centrifuges, cell counters, and compatible accessories for accurate blood analysis.</li>
             <li><b>Pipettes</b> – Manual and adjustable pipettes with precision calibration, ideal for daily lab use.</li>
           </ul>
 
-          <h2 className="text-xl font-semibold mt-6 mb-2">🧫 Diagnostic Kits & Reagents</h2>
-          <ul className="list-disc list-inside mb-4 text-base">
+          <h2 className="text-xl font-semibold mt-6 mb-2 text-gray-800">🧫 Diagnostic Kits & Reagents</h2>
+          <ul className="list-disc list-inside mb-4 text-base text-gray-800">
             <li><b>Spectrum Diagnostic Kits</b> – Trusted solutions for various biochemical and clinical tests.</li>
             <li><b>Ready-to-Use Reagents</b> – High-quality reagents that ensure consistency and accuracy in test results.</li>
             <li><b>Lyse, Diluent, and Cleaner Solutions</b> – Compatible with most hematology analyzers, these solutions ensure smooth operation and longer machine life.</li>
           </ul>
 
-          <h2 className="text-xl font-semibold mt-6 mb-2">✅ Why Choose Us?</h2>
-          <ul className="list-disc list-inside text-base">
+          <h2 className="text-xl font-semibold mt-6 mb-2 text-gray-800">✅ Why Choose Us?</h2>
+          <ul className="list-disc list-inside text-base text-gray-800">
             <li>Premium quality kits and reagents</li>
             <li>Competitive pricing and bulk availability</li>
             <li>Trusted TECOM and Spectrum solutions</li>
