@@ -9,7 +9,7 @@ export default function Navbar() {
 
   return (
     <nav
-      className="fixed top-0 left-0 w-full z-50 bg-green-700 rounded-b-lg shadow-lg border-b border-amber-400 px-2 md:px-6 py-3 flex flex-col md:flex-row items-center md:justify-between"
+      className="fixed top-0 left-0 w-full z-50 bg-green-700 rounded-b-lg shadow-lg border-b border-amber-400 px-2 md:px-6 py-2 flex flex-col md:flex-row items-center md:justify-between"
     >
         <Link
           href="/"
@@ -27,7 +27,7 @@ export default function Navbar() {
             Pakistani Trading Agencies
           </span>
         </Link>
-        <div className="flex flex-col md:flex-row gap-3 md:gap-8 w-full md:w-auto items-center justify-center md:justify-end">
+        <div className="flex flex-wrap md:flex-row gap-2 md:gap-8 w-full md:w-auto items-center justify-center md:justify-end">
           <Link
             href="/"
             className={`${linkBase} hover:text-yellow-300 hover:scale-105`}
