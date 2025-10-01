@@ -64,13 +64,13 @@ function InstrumentSlider({ images, cardBg }) {
   }, [images.length]);
 
   return (
-    <div className={`w-full flex flex-col items-center ${cardBg} rounded-lg shadow p-3 h-[350px] md:h-[420px] max-w-[320px] md:max-w-[420px] mx-auto`}>
-      <div className="relative flex items-center justify-center w-full h-[320px] md:h-[400px] transition-all duration-700">
+    <div className={`w-full flex flex-col items-center ${cardBg} rounded-lg shadow p-2 h-[450px] md:h-[420px] max-w-[400px] md:max-w-[420px] mx-auto`}>
+      <div className="relative flex items-center justify-center w-full h-[430px] md:h-[400px] transition-all duration-700">
         <Image
           src={images[index].src}
           alt={images[index].label}
           fill
-          sizes="(max-width: 768px) 320px, 400px"
+          sizes="(max-width: 768px) 400px, 400px"
           priority={index === 0}
           style={{
             objectFit: 'contain'
