@@ -40,13 +40,13 @@ function ImageSlider({ images, cardBg }) {
   const next = () => setIndex((prevIndex) => (prevIndex === images.length - 1 ? 0 : prevIndex + 1));
 
   return (
-    <div className={`w-full flex flex-col items-center ${cardBg} rounded-lg shadow p-4 h-[300px] md:h-[420px] max-w-[350px] md:max-w-[420px]`}>
-      <div className="relative flex items-center justify-center w-full h-[280px] md:h-[400px] transition-all duration-700">
+    <div className={`w-full flex flex-col items-center ${cardBg} rounded-lg shadow p-2 h-[400px] md:h-[420px] max-w-[380px] md:max-w-[420px]`}>
+      <div className="relative flex items-center justify-center w-full h-[380px] md:h-[400px] transition-all duration-700">
         <Image
           src={images[index].src}
           alt={images[index].label}
           fill
-          sizes="(max-width: 768px) 280px, 350px"
+          sizes="(max-width: 768px) 380px, 400px"
           priority
           style={{
             objectFit: 'contain'
