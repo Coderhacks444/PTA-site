@@ -36,13 +36,13 @@ function KitSlider({ images, cardBg }) {
   }, [images.length]);
 
   return (
-    <div className={`w-full flex flex-col items-center ${cardBg} rounded-lg shadow p-1 h-[500px] md:h-[420px] max-w-[90vw] md:max-w-[420px] mx-auto`}>
-      <div className="relative flex items-center justify-center w-full h-[490px] md:h-[400px] transition-all duration-700">
+    <div className={`w-full flex flex-col items-center ${cardBg} rounded-lg shadow p-2 h-[450px] md:h-[420px] max-w-[400px] md:max-w-[420px] mx-auto`}>
+      <div className="relative flex items-center justify-center w-full h-[430px] md:h-[400px] transition-all duration-700">
         <Image
           src={images[index].src}
           alt={images[index].label}
           fill
-          sizes="(max-width: 768px) 90vw, 400px"
+          sizes="(max-width: 768px) 400px, 400px"
           priority={index === 0}
           style={{
             objectFit: 'contain'
@@ -87,7 +87,7 @@ export default function Kits() {
       <h1 className="text-2xl md:text-3xl font-bold text-center mb-10 text-indigo-400">Kits & Instruments</h1>
       <div className="flex flex-col md:flex-row gap-8 md:gap-24 items-center justify-center px-4 md:px-12">
         {/* Kits Slider */}
-        <div className="flex-1 flex flex-col items-center">
+        <div className="flex-1 flex flex-col items-center pt-4 md:pt-0">
           <h2 className="text-xl font-semibold mb-6 text-amber-600 text-center">Kits</h2>
           <KitSlider images={kitImages} cardBg="bg-orange-300" />
         </div>
